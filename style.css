@@ -1,0 +1,83 @@
+/* referenced by element tag name */
+/* h1 {
+    color: red;
+}
+h2 {
+    color: greenyellow;
+} */
+
+/* referenced by class name */
+/* .title-text {
+    color: red;
+} */
+
+/* referenced by id  */
+/* #title-1, #title-2 {
+    color: red;
+} */
+
+/* find h1 one level deep  */
+/* .container > h1 {
+    color: red;
+} */
+
+/* find h1 two  level deep  */
+/* .container > div > h1 {
+    color: red;
+} */
+
+
+/* resolving conflicting styles  */
+/* 
+    id > class > element 
+    more specific selectors get higher priority
+*/
+/* .title-text {
+    color: red;
+} */
+
+/* #title-1 {
+    color: yellow;
+} */
+
+/* h1 {
+    color: green;
+} */
+
+
+/* COLORS  */
+/* .container {
+    color: whitesmoke;
+    background-color: #781251;
+} */
+
+
+/* layout  */
+.container {
+    color: whitesmoke;
+    background-color: #781251;
+    width: 50%;
+
+    /* top right bottom left */
+    /* padding: 100px 10px 50px 100px; */
+    padding-top: 100px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    /* top & bottom, right & left */
+    /* margin: 50px 100px; */
+
+    /* 
+        px - screen pixels, 
+        rem - relative measurement, compared to base font size
+    */
+    font-size: 40px;
+    margin: 5rem 10rem;
+
+    /* border - size type color */
+    border: 5px dashed #222;
+}
+
+
+
+
